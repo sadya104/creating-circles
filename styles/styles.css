@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.box {
+  margin: 20px;
+  border: 5px solid black;
+  width: 1300px;
+  height: 600px;
+  position: relative;
+  display: flex;
+}
+
+button {
+  border: 2px solid black;
+  width: 180px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: #D7514F;
+  color: white;
+  margin-bottom: 100px;
+}
+
+button:hover {
+  box-shadow: 2px 2px 0px 0px black;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */
